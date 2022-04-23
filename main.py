@@ -1,8 +1,8 @@
 import math
 def oblicz_newtona(a , b):
-    mianownik = math.factorial(a)
-    licznik = math.factorial(b)*math.factorial(a-b)
-    return mianownik/licznik
+    licznik = math.factorial(a)
+    mianownik = math.factorial(b)*math.factorial(a-b)
+    return int(licznik/mianownik)
 liczby = input()
 liczby = liczby.split()
 for i in range(len(liczby)):
